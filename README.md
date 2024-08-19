@@ -10,7 +10,7 @@ Team Members:
 
 - [Raghavendra Reddy](https://github.com/PRR184)
 - [Aviraj Rathod](https://github.com/aviraj1703)
-- [Hariom Vyas](https://github.com/Hariom1509)
+- [Hariom Vyas](https://github.com/hariom0159)
 
 
 ## Inspiration
