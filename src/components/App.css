@@ -1,0 +1,205 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*{
+  margin: 0%;
+  padding: 0%;
+  overflow-x: hidden;
+}
+body{
+  background: linear-gradient(to right, #e0cdd7, #e9d4bb);
+  overflow-y: hidden !important;
+  width: 100%;
+}
+::-webkit-scrollbar{
+  background: linear-gradient(to right, #e0cdd7, #e9d4bb);
+  width: 0.6vw;
+}
+::-webkit-scrollbar-thumb{
+
+  background: linear-gradient(to right, orange, white, green);
+  border-radius: 20px;
+  width: 70%;
+}
+::-webkit-scrollbar-corner{
+  display: none;
+}
+.navb{
+  box-sizing: border-box;
+  box-shadow: 1.5x 1.5x 2.5px 2.5px rgb(70, 64, 64);
+  margin: auto;
+  border-radius: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nvb{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  padding: 2%;
+}
+.header{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.1rem;
+  color: azure;
+  text-shadow: 0.3px -0.3px 0.61px whitesmoke;
+  padding: 2%;
+  transition: ease-in-out 1s;
+}
+.header:hover{
+  color: crimson !important;
+  transform: scale(0.9);
+  text-shadow: none;
+}
+.heading1{
+  width: 100%;
+  overflow-y: hidden !important;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin : 2%; 
+  overflow: hidden;
+}
+.head{
+  text-shadow: 2px 2px 3px whitesmoke;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.main{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2%;
+  margin: auto;
+  width: 100%;
+}
+.main img{
+  border-radius: 20px;
+}
+.hed{
+  font-family: cursive !important;
+  font-weight: bold;
+  overflow-y: hidden;
+  text-align: center;
+}
+.left{
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 1%;
+  width: 47%;
+  font-size: 1.2rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background: linear-gradient(to right, #dbbccd, #f3d4ae);
+  box-shadow: 0.7px -0.7px 2px 2px whitesmoke;
+}
+.bottom{
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 1%;
+  font-size: 1.2rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+  box-shadow: 0.7px -0.7px 2px 2px whitesmoke;
+  background: linear-gradient(to right, #dbbccd, #f3d4ae);
+}
+
+.Har {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  overflow-y: hidden !important;
+  padding: 1%;
+  font-family: cursive;
+  text-align: center;
+}
+.Har button{
+  margin: 0.3%;
+  border-radius: 10px;
+  padding: 0.2%;
+}
+.hr{
+  margin: 2%;
+}
+.hrr{
+  margin-left: 1%;
+}
+
+.table{
+  box-sizing: border-box;
+  margin: auto;
+  border-radius: 5px;
+  text-align: center;
+  padding: 1%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  /* background: linear-gradient(to right, #f7f08f, #7c98d4); */
+}
+.table th{
+  text-shadow: 0.3px -0.3px 0.61px whitesmoke;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 1%;
+  margin: 1%;
+}
+.table tr{
+  padding: 1%;
+  margin: 1%;
+}
+.temp{
+  text-align: center;
+}
+
+.bottom{
+  text-align: center;
+  padding: 1%;
+  margin: 10%;
+}
+
+.card{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background: linear-gradient(to right, #e0cdd7, #e9d4bb);
+  height: auto;
+}
+.Cards{
+  width: 25rem;
+  background: linear-gradient(to right, #cddae0, #bbe9ce);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
