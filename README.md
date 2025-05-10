@@ -2,7 +2,7 @@
 
 This is the official repository of DotSlash 5.0 Submission for Team 186 - **Snake_Eyes**.
 
-Problem Statement Topic : **Open Innovation**
+Problem Statement Topic : **Open Innovation/Blockchain**
 <br>
 Project Name  : **Public Distribution System (PDS)**
 
